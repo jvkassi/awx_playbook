@@ -1,6 +1,8 @@
 ---
-
-- name: Installa apache
+- name: Hello World JVK!
   hosts: all
-  roles:
-    - role: jeduoliveira.apache
+ 
+  tasks:
+ 
+  - name: Hello World JVK 2!
+    shell: echo "Hi! Tower is working."
